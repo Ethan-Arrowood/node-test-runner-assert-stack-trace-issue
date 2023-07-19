@@ -1,0 +1,8 @@
+{
+  "name": "test-runner-assert-stack-trace-issue",
+  "type": "module",
+  "scripts": {
+    "actual": "node --test --test-reporter=./reporter.cjs test.js",
+    "expected": "node expected.js"
+  }
+}
